@@ -21,7 +21,7 @@ public class Monitor implements Listener {
             for (Map.Entry<String, List<String>> j: tmp1.entrySet())
             {
                 rules.put(j.getKey(), j.getValue());
-                Bukkit.getConsoleSender().sendMessage(j.getKey() + " ----> " + j.getValue().get(0));
+                Bukkit.getConsoleSender().sendMessage("§f<§aAdvancementCommand§f>§e rule: " + j.getKey() + " ----> " + j.getValue().toString());
             }
         }
         Bukkit.getConsoleSender().sendMessage("§f<§aAdvancementCommand§f>§e Found " + rules.size() + " rules.");
@@ -37,6 +37,7 @@ public class Monitor implements Listener {
                 + " commands then execute.");
         for (String s:commands)
         {
+            Bukkit.getConsoleSender().sendMessage("§f<§aAdvancementCommand§f>§e call: " + s);
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), s);
         }
 

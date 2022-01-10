@@ -1,0 +1,15 @@
+#插件名称
+name: AdvancementCommand
+#主类
+main: Main
+#插件版本
+version: 0.0.1
+#核心版本
+api-version: 1.18
+#作者
+author: DictXiong
+#注册指令
+commands:
+  reload:
+    description: Reload rules from config file
+    usage: "/adc reload"

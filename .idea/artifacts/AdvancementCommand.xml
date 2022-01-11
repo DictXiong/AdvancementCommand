@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AdvancementCommand">
+    <output-path>$PROJECT_DIR$/out/artifacts/AdvancementCommand</output-path>
+    <root id="archive" name="AdvancementCommand.jar">
+      <element id="module-output" name="AdvancementCommand" />
+    </root>
+  </artifact>
+</component>

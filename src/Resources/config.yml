@@ -1,3 +1,4 @@
 enable: true
 rules:
 #  - "minecraft:end/respawn_dragon": ["say yahooooooo!", "say 123"]
+#  - "minecraft:adventure/trade": ['say <adc:uuid> <adc:player_name> <adc:display_name> <adc:advancement_id>'] # these placeholders will be replaced while execution
